@@ -1,0 +1,96 @@
+style.css
+@font-face {
+    font-family: "mandatory18";
+    font weight: 400px;
+    src: url("fonts/Mandatory18.woff2") format("woff2");
+}
+@font-face {
+    font-family: "mandatory17";
+    font weight: 500px;
+    src: url("fonts/Mandatory17.woff2") format("woff2");
+}
+@font-face {
+    font-family: "FrankRuhlLibre-Bold";
+    font weight: 500px;
+    src: url("fonts/FrankRuhlLibre-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "FrankRuhlLibre-Regular";
+    font weight: 400px;
+    src: url("fonts/FrankRuhlLibre-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Academy Engraved LET Plain";
+    font weight: 400px;
+    src: url("fonts/Academy Engraved LET Plain.woff2") format("woff2");
+}
+* {
+    box-sizing: border-box;
+    }
+body {
+    background-color: #2d3532;
+    /* max-width: 500PX; */
+
+    /* overflow-x: hidden; */
+}
+article {
+    /* max-width: 10px; */
+    margin: 8.75%;
+}
+h1 {
+    font-family: "Mandatory18","ariel", sans-serif;
+    font-size: 16em;
+    font-weight: 400;
+    color: #fdfae2;
+    letter-spacing: 0.15em;
+}
+h2 {
+    font-family: "Mandatory17","ariel", sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #fdfae2;
+    letter-spacing: 0.40em;
+    line-height: 1.4em;
+}
+.background {
+    display: block;
+    position: fixed;
+    opacity: 1.4%;
+    margin: 0;
+    background-size: auto;
+    max-width: none;
+    height: auto;
+}
+.introtext {
+    font-family: "FrankRuhlLibre-Bold","ariel", serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #fdfae2;
+    letter-spacing: 0.20em;
+    line-height: 2em;
+}
+.quote {
+    font-family: "FrankRuhlLibre-Regular","ariel", serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #dda15e;
+    letter-spacing: 0.20em;  
+    text-align: center; 
+    line-height: 2em;
+}
+.text {
+    font-family: "FrankRuhlLibre-Regular","ariel", serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fdfae2;
+    letter-spacing: 0.20em;
+    line-height: 2.2em;
+}
+.edescription {
+    font-family: "Academy Engraved LET Plain","ariel", serif;
+    color: #dda15e;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.10em;
+    line-height: 1.8em;
+}
