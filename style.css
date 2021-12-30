@@ -94,3 +94,6 @@ h2 {
     letter-spacing: 0.10em;
     line-height: 1.8em;
 }
+.maintitle {
+    display: inline-block;
+}
