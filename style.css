@@ -34,32 +34,54 @@ body {
     /* overflow-x: hidden; */
 }
 article {
-    /* max-width: 10px; */
     margin: 8.75%;
 }
 h1 {
     font-family: "Mandatory18","ariel", sans-serif;
-    font-size: 16em;
+    font-size: 16vw;
     font-weight: 400;
     color: #fdfae2;
     letter-spacing: 0.15em;
+    margin: 0px;
+    white-space: nowrap;
 }
 h2 {
+    display: block;
     font-family: "Mandatory17","ariel", sans-serif;
-    font-size: 1.6em;
+    font-size: 2vw;
     font-weight: 400;
     color: #fdfae2;
     letter-spacing: 0.40em;
     line-height: 1.4em;
 }
+
+h2.sub-title {
+    position: absolute;
+    right: 78%;
+    top: 52%;
+}
+.alef {
+    letter-spacing: 0;
+}
+.maintitle {
+    position: relative;
+}
 .background {
     display: block;
     position: fixed;
-    opacity: 1.4%;
-    margin: 0;
+    top: 0;
+    right: 0;
+    opacity: 1.8%;
     background-size: auto;
-    max-width: none;
-    height: auto;
+    max-width: 100%;
+    pointer-events: none;
+}
+.samech {
+    height: 0.7em;
+    margin-right: .15em;
+}
+.intro {
+    position: relative;
 }
 .introtext {
     font-family: "FrankRuhlLibre-Bold","ariel", serif;
@@ -67,7 +89,8 @@ h2 {
     font-weight: 500;
     color: #fdfae2;
     letter-spacing: 0.20em;
-    line-height: 2em;
+    line-height: 2.15em;
+    margin-bottom: 30%;
 }
 .quote {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
@@ -77,6 +100,10 @@ h2 {
     letter-spacing: 0.20em;  
     text-align: center; 
     line-height: 2em;
+    position: absolute;
+    white-space: nowrap;
+    right: 49%;
+    top: 52%;
 }
 .text {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
@@ -95,5 +122,8 @@ h2 {
     line-height: 1.8em;
 }
 .maintitle {
-    display: inline-block;
+    display: flex;
+}
+.heinrich {
+    max-width: 30%;
 }
