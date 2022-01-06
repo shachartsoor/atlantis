@@ -1,27 +1,26 @@
-style.css
 @font-face {
     font-family: "mandatory18";
-    font weight: 400px;
+    font-weight: 400;
     src: url("fonts/Mandatory18.woff2") format("woff2");
 }
 @font-face {
     font-family: "mandatory17";
-    font weight: 500px;
+    font-weight: 500;
     src: url("fonts/Mandatory17.woff2") format("woff2");
 }
 @font-face {
     font-family: "FrankRuhlLibre-Bold";
-    font weight: 500px;
+    font-weight: 500;
     src: url("fonts/FrankRuhlLibre-Bold.woff2") format("woff2");
 }
 @font-face {
     font-family: "FrankRuhlLibre-Regular";
-    font weight: 400px;
+    font-weight: 400;
     src: url("fonts/FrankRuhlLibre-Regular.woff2") format("woff2");
 }
 @font-face {
     font-family: "Academy Engraved LET Plain";
-    font weight: 400px;
+    font-weight: 400;
     src: url("fonts/Academy Engraved LET Plain.woff2") format("woff2");
 }
 * {
