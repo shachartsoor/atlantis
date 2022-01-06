@@ -107,17 +107,25 @@ h2.sub-title {
 }
 .text {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 400;
     color: #fdfae2;
-    letter-spacing: 0.20em;
-    line-height: 2.2em;
+    letter-spacing: 0.18em;
+    line-height: 2.5em;
     opacity: 80%;
 }
 .visual1{
     width: 30vw;
     padding-left: 5%;
     align-content: normal;
+}
+.hdescription {
+    font-family: "FrankRuhlLibre-Regular","ariel", serif;
+    color: #dda15e;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.10em;
+    line-height: 1.8em;  
 }
 .edescription {
     font-family: "Academy Engraved LET Plain","ariel", serif;
@@ -147,4 +155,22 @@ h2.sub-title {
     width: 70vw;
     padding-top: 20%;
     padding-right: 1%;
+}
+.empiremap {
+    max-width: 100%;
+    border: solid 2px #dda15e;
+}
+.visual2 {
+    width: 100vw;
+    margin-left: 5%;
+}
+.text2 {
+  float: left;  
+  width: 40vw;
+  margin-left: 2%;
+}
+.part2 {
+       display: flex;
+       flex-direction: row; 
+       margin-top: 200px;
 }
