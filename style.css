@@ -174,3 +174,6 @@ h2.sub-title {
        flex-direction: row; 
        margin-top: 200px;
 }
+.title2 {
+    position: absolute;
+}
