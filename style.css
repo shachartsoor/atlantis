@@ -112,9 +112,11 @@ h2.sub-title {
     color: #fdfae2;
     letter-spacing: 0.20em;
     line-height: 2.2em;
+    opacity: 80%;
 }
 .visual1{
-    width: 20vw;
+    width: 30vw;
+    padding-left: 5%;
     align-content: normal;
 }
 .edescription {
@@ -126,14 +128,14 @@ h2.sub-title {
     line-height: 1.8em;
 }
 .d_heinrich {
-    position: absolute;
-    right: 12.8%;
+    /* position: absolute; */
+    /* right: 12.8%; */
 }
 .maintitle {
     display: flex;
 }
 .heinrich {
-    max-width: 60%;
+    max-width: 100%;
     border: solid 2px #dda15e;
 }
 .part1 {
@@ -142,5 +144,7 @@ h2.sub-title {
     flex-direction: row;
 }
 .text1 {
-    width: 80vw;
+    width: 70vw;
+    padding-top: 20%;
+    padding-right: 1%;
 }
