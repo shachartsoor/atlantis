@@ -35,6 +35,12 @@ body {
 article {
     margin: 8.75%;
 }
+header{
+    background-image: url("images/line.png");
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position: 16.7vw 16vw
+}
 h1 {
     font-family: "Mandatory18","ariel", sans-serif;
     font-size: 16vw;
@@ -117,9 +123,14 @@ h2.sub-title {
     width: 30vw;
     padding-left: 5%;
     align-content: normal;
+    background-image: url("images/circle.png");
+    background-repeat: no-repeat;
+    background-size: 4.5vw;
+    background-position: -1.35vw 0vw;
 }
 .hdescription {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
+    margin-right: 4vw;
     color: #dda15e;
     font-size: 0.9em;
     font-weight: 400;
@@ -149,31 +160,118 @@ h2.sub-title {
     /* position: relative; */
     display: flex;
     flex-direction: row;
+    background-image: url("images/line_2.png");
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position: 55vw 4vw
 }
 .text1 {
     width: 70vw;
     padding-top: 20%;
-    padding-right: 1%;
+    padding-right: 2%;
+    padding-left: 8vw;
 }
 .empiremap {
     max-width: 100%;
     border: solid 2px #dda15e;
 }
 .visual2 {
+    position: relative;
     width: 55vw;
     margin-left: 5%;
     float: left;
-    margin-right: 40px;
+    margin-right: 40px;       
 }
 .text2 { 
-  padding-top: 200px;
-  width: 50vw;
-  margin-left: 2%;
+        padding-top: 200px;
+        width: 50vw;
+        margin-left: 2%;
 }
 .part2 {
        flex-direction: row; 
-       margin-top: 200px;
+       margin-top: 180px;
+       padding-top: 2.5vw;
+       background-image: url("images/circle.png");
+       background-repeat: no-repeat;
+       background-size: 4.5vw;
+       background-position: -0.85vw 0vw;
 }
 .title2 {
     position: absolute;
+    left: 37vw;
+    bottom: 0.5vw;
+}
+.visual5 {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: auto;
+}
+.visual5 img {
+    height: 300px;
+}
+.atalantaplay {
+    margin-top: 15vw;
+}
+.image_wrap1 {
+    margin-top: 2.5vw;
+}
+.image_wrap2 {
+       background-image: url("images/line_3.png");
+       background-repeat: no-repeat;
+       background-size: 6vw;
+       background-position: -1.7vw 1.5vw;
+}
+.walldrawing {
+    margin-right: 4vw;
+    max-width: 68%;
+    border: solid 2px #dda15e;
+}
+.part3 {
+    margin-top: 9vw;
+    background-image: url("images/circle.png");
+    background-repeat: no-repeat;
+    background-size: 4.5vw;
+    background-position: 78.5vw 19vw;
+}
+.title3 {
+    position: relative;
+    left: -35vw;
+    top: 2.8vw;
+}
+.image_wrap3 {
+    background-image: url("images/line_3.png");
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position: 77.70vw 23vw; 
+}
+.part4{
+    background-image: url("images/line_4.png");
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position: 48.7vw 33vw;
+}
+.text4{
+    width: 60vw;
+}
+.visual4 {
+    width: 40vw;
+    margin-top: 54vw;
+}
+.title4 {
+    padding-top: 8vw;
+}
+.atlas {
+    max-width: 80%;
+    border: solid 2px #dda15e;
+}
+.d_atlas {
+    padding-left: 6.4vw;
+}
+.wrap_part4 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/circle.png");
+    background-repeat: no-repeat;
+    background-size: 4.5vw;
+    background-position: 49.5vw 28.5vw;
 }
