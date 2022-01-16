@@ -25,12 +25,11 @@
 }
 * {
     box-sizing: border-box;
-    }
+}
 body {
     background-color: #2d3532;
     /* max-width: 500PX; */
-
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 article {
     margin: 8.75%;
@@ -62,8 +61,8 @@ h2 {
     letter-spacing: 0.40em;
     line-height: 1.4em;
     opacity: 95%;
+    margin-right: -0.3em;
 }
-
 h2.sub-title {
     position: absolute;
     right: 78%;
@@ -393,27 +392,49 @@ h2.sub-title {
     background-image: url(images/line_2.png);
     background-repeat: no-repeat;
     background-size: 6vw;
-    background-position: -0.25vw 28vw;
+    background-position: -0.25vw 27vw;
 }
 .text9 {
     width: 70vw;
     padding-left: 3.5vw;
 }
-.knossos {
-    width: 140%;
-    border: solid 2px #dda15e;    
-}
 .part10 {
+    background-image: url("images/circle.png");
+    background-repeat: no-repeat;
+    background-size: 4.5vw;
+    background-position: -1.5vw 79.4vw;
+}
+.text10 {
+    width: 57vw;
+    padding-top: 2.5vw;
+}
+.knossos {
+    width: 100%;
+    /* margin-right: 23vw; */
+    border: solid 2px #dda15e;
+}
+.text11 {
+    width: 55vw;
+    padding-left: 3vw;
+    margin top: -0.2;
+} 
+.visual10 {
+    width: 45vw;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    float: left;
+    margin-left: -24vw;
+    margin-top: 13vw;
+    background-image: url("images/line_3.png");
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position: -3vw 2vw;
+}
+    /* .part11 { */
     flex-direction: row; 
-    margin-top: 180px;
     padding-top: 2.5vw;
     background-image: url("images/circle.png");
     background-repeat: no-repeat;
     background-size: 4.5vw;
     background-position: -0.85vw 0vw;
-}
-.visual10 {
-        position: relative;
-        width: 55vw;
-        float: left;  
 }
