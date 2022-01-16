@@ -25,31 +25,29 @@
 }
 * {
     box-sizing: border-box;
-    }
+}
 body {
-    background-color: #2d3532;
-    /* max-width: 500PX; */
-
-    /* overflow-x: hidden; */
+    background-color: #e78f35;
+    overflow-x: hidden;
 }
 article {
     margin: 8.75%;
 }
-header{
-    background-image: url("images/line.png");
+i {
+    color: #923645; 
+}
+header {
+    background-image: url("images/line\ background.png");
     background-repeat: no-repeat;
     background-size: 6vw;
-    background-position: 16.7vw 16vw
-}
-i {
-    color: #dda15e; 
+    background-position: 22vw 10.7vw;
 }
 h1 {
     font-family: "Mandatory18","ariel", sans-serif;
-    font-size: 16vw;
+    font-size: 14vw;
     font-weight: 400;
     color: #fdfae2;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.14em;
     margin: 0px;
     white-space: nowrap;
 }
@@ -62,25 +60,29 @@ h2 {
     letter-spacing: 0.40em;
     line-height: 1.4em;
     opacity: 95%;
+    margin-right: -0.3em;
 }
-
 h2.sub-title {
-    position: absolute;
-    right: 78%;
-    top: 52%;
+    margin-right: 0.3em;
+    padding-top: 2vw;
 }
 .alef {
     letter-spacing: 0;
 }
+.headtitle {
+    display: flex;
+    flex-direction: row;
+}
 .maintitle {
     position: relative;
+    display: flex;
 }
 .background {
     display: block;
     position: fixed;
     top: 0;
     right: 0;
-    opacity: 1.8%;
+    opacity: 4%;
     background-size: auto;
     max-width: 100%;
     pointer-events: none;
@@ -92,6 +94,7 @@ h2.sub-title {
 .intro {
     position: relative;
 }
+
 .introtext {
     font-family: "FrankRuhlLibre-Bold","ariel", serif;
     font-size: 1.4em;
@@ -101,19 +104,20 @@ h2.sub-title {
     line-height: 2.15em;
     margin-bottom: 30%;
     opacity: 90%;
+    width: 36vw;
 }
 .quote {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
     font-size: 1.2em;
     font-weight: 400;
-    color: #dda15e;
+    color: #923645;
     letter-spacing: 0.20em;  
     text-align: center; 
     line-height: 2em;
     position: absolute;
     white-space: nowrap;
-    right: 49%;
-    top: 52%;
+    right: 45%;
+    top: 60%;
 }
 .text {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
@@ -128,15 +132,11 @@ h2.sub-title {
     width: 30vw;
     padding-left: 5%;
     align-content: normal;
-    background-image: url("images/circle.png");
-    background-repeat: no-repeat;
-    background-size: 4.5vw;
-    background-position: -1.35vw 0vw;
 }
 .hdescription {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
     margin-right: 4vw;
-    color: #dda15e;
+    color: #c15845;
     font-size: 0.9em;
     font-weight: 400;
     letter-spacing: 0.10em;
@@ -144,26 +144,24 @@ h2.sub-title {
 }
 .edescription {
     font-family: "Academy Engraved LET Plain","ariel", serif;
-    color: #dda15e;
+    color: #923645;
     font-size: 0.9em;
     font-weight: 400;
     letter-spacing: 0.10em;
     line-height: 1.8em;
 }
-.maintitle {
-    display: flex;
-}
-.heinrich {
+
+.palenque {
     max-width: 100%;
-    border: solid 2px #dda15e;
+    border: solid 2px #c15845;
 }
 .part1 {
     display: flex;
     flex-direction: row;
-    background-image: url("images/line_2.png");
+    background-image: url("images/line.png");
     background-repeat: no-repeat;
     background-size: 6vw;
-    background-position: 55vw 4vw
+    background-position: 55.3vw 1.2vw;
 }
 .text1 {
     width: 70vw;
@@ -171,9 +169,9 @@ h2.sub-title {
     padding-right: 2%;
     padding-left: 8vw;
 }
-.empiremap {
+.maya_calendar {
     max-width: 100%;
-    border: solid 2px #dda15e;
+    border: solid 7px #c15845;
 }
 .visual2 {
     position: relative;
@@ -183,14 +181,14 @@ h2.sub-title {
     margin-right: 40px;       
 }
 .text2 { 
-        padding-top: 200px;
+        padding-top: 150px;
         width: 50vw;
         margin-left: 2%;
 }
 .part2 {
        flex-direction: row; 
        margin-top: 180px;
-       padding-top: 2.5vw;
+       padding-top: 6vw;
        background-image: url("images/circle.png");
        background-repeat: no-repeat;
        background-size: 4.5vw;
@@ -198,8 +196,8 @@ h2.sub-title {
 }
 .title2 {
     position: absolute;
-    left: 37vw;
-    bottom: 0.5vw;
+    left: 34vw;
+    bottom: 38.6vw;
 }
 .visual5 {
     display: flex;
@@ -393,27 +391,40 @@ h2.sub-title {
     background-image: url(images/line_2.png);
     background-repeat: no-repeat;
     background-size: 6vw;
-    background-position: -0.25vw 28vw;
+    background-position: -0.25vw 27vw;
 }
 .text9 {
     width: 70vw;
     padding-left: 3.5vw;
 }
-.knossos {
-    width: 140%;
-    border: solid 2px #dda15e;    
-}
 .part10 {
-    flex-direction: row; 
-    margin-top: 180px;
-    padding-top: 2.5vw;
     background-image: url("images/circle.png");
     background-repeat: no-repeat;
     background-size: 4.5vw;
-    background-position: -0.85vw 0vw;
+    background-position: -1.5vw 79.4vw;
 }
+.text10 {
+    width: 57vw;
+    padding-top: 2.5vw;
+}
+.knossos {
+    width: 100%;
+    border: solid 2px #dda15e;
+}
+.text11 {
+    width: 55vw;
+    padding-left: 3vw;
+    margin top: -0.2;
+} 
 .visual10 {
-        position: relative;
-        width: 55vw;
-        float: left;  
+    width: 45vw;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    float: left;
+    margin-left: -24vw;
+    margin-top: 13vw;
+    background-image: url("images/line_3.png");
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position: -3vw 2vw;
 }
