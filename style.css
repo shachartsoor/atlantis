@@ -27,27 +27,28 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #e78f35;
+    background-color: #2d3532;
+    /* max-width: 500PX; */
     overflow-x: hidden;
 }
 article {
     margin: 8.75%;
 }
-i {
-    color: #923645; 
-}
-header {
-    background-image: url("images/line\ background.png");
+header{
+    background-image: url("images/line.png");
     background-repeat: no-repeat;
     background-size: 6vw;
-    background-position: 22vw 10.7vw;
+    background-position: 16.7vw 16vw
+}
+i {
+    color: #dda15e; 
 }
 h1 {
     font-family: "Mandatory18","ariel", sans-serif;
-    font-size: 14vw;
+    font-size: 16vw;
     font-weight: 400;
     color: #fdfae2;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.15em;
     margin: 0px;
     white-space: nowrap;
 }
@@ -63,26 +64,22 @@ h2 {
     margin-right: -0.3em;
 }
 h2.sub-title {
-    margin-right: 0.3em;
-    padding-top: 2vw;
+    position: absolute;
+    right: 78%;
+    top: 52%;
 }
 .alef {
     letter-spacing: 0;
 }
-.headtitle {
-    display: flex;
-    flex-direction: row;
-}
 .maintitle {
     position: relative;
-    display: flex;
 }
 .background {
     display: block;
     position: fixed;
     top: 0;
     right: 0;
-    opacity: 4%;
+    opacity: 1.8%;
     background-size: auto;
     max-width: 100%;
     pointer-events: none;
@@ -94,7 +91,6 @@ h2.sub-title {
 .intro {
     position: relative;
 }
-
 .introtext {
     font-family: "FrankRuhlLibre-Bold","ariel", serif;
     width: 35vw;
@@ -105,20 +101,19 @@ h2.sub-title {
     line-height: 2.15em;
     margin-bottom: 30%;
     opacity: 90%;
-    width: 36vw;
 }
 .quote {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
     font-size: 1.2em;
     font-weight: 400;
-    color: #923645;
+    color: #dda15e;
     letter-spacing: 0.20em;  
     text-align: center; 
     line-height: 2em;
     position: absolute;
     white-space: nowrap;
-    right: 45%;
-    top: 60%;
+    right: 49%;
+    top: 52%;
 }
 .text {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
@@ -133,11 +128,15 @@ h2.sub-title {
     width: 30vw;
     padding-left: 5%;
     align-content: normal;
+    background-image: url("images/circle.png");
+    background-repeat: no-repeat;
+    background-size: 4.5vw;
+    background-position: -1.35vw 0vw;
 }
 .hdescription {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
     margin-right: 4vw;
-    color: #c15845;
+    color: #dda15e;
     font-size: 0.9em;
     font-weight: 400;
     letter-spacing: 0.10em;
@@ -145,24 +144,26 @@ h2.sub-title {
 }
 .edescription {
     font-family: "Academy Engraved LET Plain","ariel", serif;
-    color: #923645;
+    color: #dda15e;
     font-size: 0.9em;
     font-weight: 400;
     letter-spacing: 0.10em;
     line-height: 1.8em;
 }
-
-.palenque {
+.maintitle {
+    display: flex;
+}
+.heinrich {
     max-width: 100%;
-    border: solid 2px #c15845;
+    border: solid 2px #dda15e;
 }
 .part1 {
     display: flex;
     flex-direction: row;
-    background-image: url("images/line.png");
+    background-image: url("images/line_2.png");
     background-repeat: no-repeat;
     background-size: 6vw;
-    background-position: 55.3vw 1.2vw;
+    background-position: 55vw 4vw
 }
 .text1 {
     width: 70vw;
@@ -170,35 +171,35 @@ h2.sub-title {
     padding-right: 2%;
     padding-left: 8vw;
 }
-.maya_calendar {
+.empiremap {
     max-width: 100%;
-    border: solid 7px #c15845;
+    border: solid 2px #dda15e;
 }
 .visual2 {
     position: relative;
     width: 55vw;
-    margin-left: 4.2%;
+    margin-left: 5%;
     float: left;
     margin-right: 40px;       
 }
 .text2 { 
-        padding-top: 150px;
+        padding-top: 200px;
         width: 50vw;
         margin-left: 2%;
 }
 .part2 {
        flex-direction: row; 
        margin-top: 180px;
-       padding-top: 6vw;
-       background-image: url("images/line.png");
+       padding-top: 2.5vw;
+       background-image: url("images/circle.png");
        background-repeat: no-repeat;
-       background-size: 6vw;
-       background-position: -2.2vw 0vw;
+       background-size: 4.5vw;
+       background-position: -0.85vw 0vw;
 }
 .title2 {
     position: absolute;
-    left: 34vw;
-    bottom: 38.6vw;
+    left: 37vw;
+    bottom: 0.5vw;
 }
 .visual5 {
     display: flex;
@@ -410,6 +411,7 @@ h2.sub-title {
 }
 .knossos {
     width: 100%;
+    /* margin-right: 23vw; */
     border: solid 2px #dda15e;
 }
 .text11 {
