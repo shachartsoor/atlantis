@@ -176,7 +176,7 @@ h2.sub-title {
 .visual2 {
     position: relative;
     width: 55vw;
-    margin-left: 5%;
+    margin-left: 4.2%;
     float: left;
     margin-right: 40px;       
 }
@@ -189,10 +189,10 @@ h2.sub-title {
        flex-direction: row; 
        margin-top: 180px;
        padding-top: 6vw;
-       background-image: url("images/circle.png");
+       background-image: url("images/line.png");
        background-repeat: no-repeat;
-       background-size: 4.5vw;
-       background-position: -0.85vw 0vw;
+       background-size: 6vw;
+       background-position: -2.2vw 0vw;
 }
 .title2 {
     position: absolute;
