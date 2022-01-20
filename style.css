@@ -430,11 +430,16 @@ h2.sub-title {
     background-size: 6vw;
     background-position: -3vw 2vw;
 }
-    /* .part11 { */
+    /* .part11 { 
     flex-direction: row; 
     padding-top: 2.5vw;
     background-image: url("images/circle.png");
     background-repeat: no-repeat;
     background-size: 4.5vw;
     background-position: -0.85vw 0vw;
+}*/
+@media (max-width:400px) {
+    .quote {
+        position: static;
+    }
 }
