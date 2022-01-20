@@ -93,6 +93,7 @@ h2.sub-title {
 }
 .introtext {
     font-family: "FrankRuhlLibre-Bold","ariel", serif;
+    width: 35vw;
     font-size: 1.4em;
     font-weight: 500;
     color: #fdfae2;
@@ -430,11 +431,27 @@ h2.sub-title {
     background-size: 6vw;
     background-position: -3vw 2vw;
 }
-    /* .part11 { */
-    flex-direction: row; 
+    .part11 {
     padding-top: 2.5vw;
-    background-image: url("images/circle.png");
-    background-repeat: no-repeat;
-    background-size: 4.5vw;
-    background-position: -0.85vw 0vw;
+}
+@media only screen and (min-width: 414px) {
+    article {
+        margin: 6.75%;
+    }
+    header {
+        background-position: -2vw 16vw;
+    }
+    h1 {
+        font-size: 20.7vw;
+    }
+    h2.sub-title {
+        right: 99%;
+    }
+    .introtext {
+        font-size: 0.5em;
+    }
+    .quote {
+        font-size: 0.9em;
+        right: 63.5%;
+    }
 }
