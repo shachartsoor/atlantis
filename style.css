@@ -26,6 +26,9 @@
 * {
     box-sizing: border-box;
 }
+a {
+    color: #dda15e;  
+}
 body {
     background-color: #2d3532;
     /* max-width: 500PX; */
@@ -100,6 +103,7 @@ h2.sub-title {
     line-height: 2.15em;
     margin-bottom: 30%;
     opacity: 90%;
+    width: 35vw;
 }
 .quote {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
@@ -416,7 +420,7 @@ h2.sub-title {
 .text11 {
     width: 55vw;
     padding-left: 3vw;
-    margin top: -0.2;
+    margin-top: -0.2;
 } 
 .visual10 {
     width: 45vw;
@@ -438,8 +442,21 @@ h2.sub-title {
     background-size: 4.5vw;
     background-position: -0.85vw 0vw;
 }*/
-@media (max-width:400px) {
+@media (max-width:1400px) {
     .quote {
         position: static;
+        margin-bottom: 13vw;
+    }
+    .introtext {
+    margin-bottom: 5%;
+    width: 40vw;
+    }
+}
+@media (max-width:1028px) {
+
+}
+@media (max-width:450px) {
+    h1 {
+    font-size: 21.5vw;
     }
 }
