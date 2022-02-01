@@ -427,8 +427,8 @@ h2.sub-title {
     padding-left: 3vw;
     padding-right: 5vw;
     float: left;
-    margin-left: -24vw;
-    margin-top: 13vw;
+    margin-left: -5vw;
+    margin-top: 3vw;
     background-image: url("images/line_3.png");
     background-repeat: no-repeat;
     background-size: 6vw;
@@ -443,13 +443,19 @@ h2.sub-title {
     background-position: -0.85vw 0vw;
 }*/
 @media (max-width:1400px) {
+    header{
+        background-image: url("images/line.png");
+        background-repeat: no-repeat;
+        background-size: 0vw;
+    }
     .quote {
         position: static;
+        margin-top: 10vw;
         margin-bottom: 13vw;
     }
     .introtext {
     margin-bottom: 5%;
-    width: 40vw;
+    width: 55vw;
     }
 }
 @media (max-width:1028px) {
