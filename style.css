@@ -115,8 +115,8 @@ h2.sub-title {
     line-height: 2em;
     position: absolute;
     white-space: nowrap;
-    right: 49%;
-    top: 52%;
+    right: 40vw;
+    top: 11vw;
 }
 .text {
     font-family: "FrankRuhlLibre-Regular","ariel", serif;
@@ -144,6 +144,9 @@ h2.sub-title {
     font-weight: 400;
     letter-spacing: 0.10em;
     line-height: 1.8em;  
+}
+.d_empiremap {
+    padding-right: 24vw;
 }
 .edescription {
     font-family: "Academy Engraved LET Plain","ariel", serif;
@@ -214,6 +217,7 @@ h2.sub-title {
     margin-bottom: 3vw;
     padding-left: 3.5vw;
     padding-top: 1vw;
+    padding-right: 33vw;
 
 }
 .part5 {
@@ -402,38 +406,38 @@ h2.sub-title {
     width: 70vw;
     padding-left: 3.5vw;
 }
-.part10 {
-    background-image: url("images/circle.png");
-    background-repeat: no-repeat;
-    background-size: 4.5vw;
-    background-position: -1.5vw 79.4vw;
-}
 .text10 {
     width: 57vw;
     padding-top: 2.5vw;
+}
+.part10b {
+    background-image: url("images/circle.png");
+    background-repeat: no-repeat;
+    background-size: 4.5vw;
+    background-position: -1.2vw 2.8vw;
 }
 .knossos {
     width: 100%;
     /* margin-right: 23vw; */
     border: solid 2px #dda15e;
 }
-.text11 {
-    width: 55vw;
-    padding-left: 3vw;
-    margin-top: -0.2;
-} 
 .visual10 {
     width: 45vw;
     padding-left: 3vw;
     padding-right: 5vw;
     float: left;
-    margin-left: -5vw;
-    margin-top: 3vw;
+    margin-left: 1vw;
+    margin-top: 5vw;
     background-image: url("images/line_3.png");
     background-repeat: no-repeat;
     background-size: 6vw;
     background-position: -3vw 2vw;
 }
+.text11 {
+    width: 55vw;
+    padding-left: 3vw;
+    margin-top: -0.2;
+} 
     /* .part11 { 
     flex-direction: row; 
     padding-top: 2.5vw;
@@ -442,6 +446,21 @@ h2.sub-title {
     background-size: 4.5vw;
     background-position: -0.85vw 0vw;
 }*/
+@media (max-width:1600px) {
+    .quote {
+        right: 39vw
+    }
+}
+@media (max-width:1500px) {
+    .quote {
+        right: 37vw
+    }
+}
+@media (max-width:1450px) {
+    .quote {
+        right: 36vw
+    }
+}
 @media (max-width:1400px) {
     header{
         background-image: url("images/line.png");
@@ -458,11 +477,102 @@ h2.sub-title {
     width: 55vw;
     }
 }
+@media (max-width:1145px) {
+    .title2 {
+        bottom: 46svw;
+        left: 39vw;
+    }
+    .d_empiremap {
+        padding-right: 19vw;
+    }
+}
+@media (max-width:1096px) {
+    .visual5 img {
+        height: 451px;
+    }
+}
+@media (max-width:1109px) {
+    .introtext {
+    font-size: 1.2em;
+    }
+    .quote {
+        font-size: 1.1em;
+        position: static;
+        margin-top: 10vw;
+        margin-bottom: 13vw;
+    }
+}
 @media (max-width:1028px) {
 
 }
+@media (max-width:864px) {
+    .visual5 img {
+        height: 340px;
+    }
+}
+@media (max-width:750px) {
+    .text5 {
+    padding-right: 40vw;
+    }
+    .introtext {
+        font-size: 1em;
+        }
+}
+@media (max-width:611px) {
+    .visual5 img {
+        height: 280px;
+    }
+}
 @media (max-width:450px) {
     h1 {
-    font-size: 21.5vw;
+        font-size: 25vw;
     }
+    .introtext {
+        font-size: 1.3em;
+        line-height: 1.8em;
+        letter-spacing: 0.15em;
+        width: 104vw;
+        text-align: center;
+        padding-top: 10vw;
+        }
+        h2.sub-title {
+            right: 106%;
+            top: 66%;
+        }
+        h2 {
+            font-size: 3vw;
+        }
+        .quote {
+            text-align: center;
+            line-height: 1.6em;
+            white-space: none;
+            white-space: normal;
+            padding-right: 23vw;
+            margin-top: 11vw;           
+        }
+        .visual1 {
+            width: 103vw;
+            padding-left: 0;
+        }
+        .part1 {
+                display: block;
+                flex-direction: column;
+        }
+        .text1 {
+            width: 100vw;
+            padding-top: 8%;
+            padding-right: -4%;
+            padding-left: 0vw;
+        }
+        .visual2 {
+            position: relative;
+            width: 100vw;
+            margin-left: 0;
+            float: none;
+            margin-right: 8px;
+        }
+        .part2 {
+            flex-direction: row;
+            margin-top: 74px;
+        }
 }
