@@ -263,6 +263,7 @@ h2.sub-title {
     position: relative;
     left: -35vw;
     top: 2.8vw;
+    width: 45vw;
 }
 .image_wrap3 {
     background-image: url("images/line_3.png");
@@ -525,54 +526,201 @@ h2.sub-title {
 }
 @media (max-width:450px) {
     h1 {
-        font-size: 25vw;
+        font-size: 5.85em;
     }
     .introtext {
-        font-size: 1.3em;
-        line-height: 1.8em;
-        letter-spacing: 0.15em;
-        width: 104vw;
-        text-align: center;
+        font-size: 1.5em;
+        line-height: 1.6em;    
+        letter-spacing: 0.1em;
+        width: 91vw;
+        text-align: right;
+        padding-top: 20vw;
+        margin-right: -1vw;
+    }
+    h2.sub-title {
+            right: 0%;
+            top: 74%;
+        }
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.1em;
+        letter-spacing: 0.28em;
+        }
+    .text {
+        line-height: 1.6em;
+        margin-right: -1vw;
+    }
+    .quote {
+        text-align: right;
+        line-height: 1.6em;
+        white-space: none;
+        white-space: normal;
+        padding-right: 0vw;
+        letter-spacing: 0.13em;
+        margin-top: 16vw;           
+        }
+    .visual1 {
+        width: 103vw;
+        padding-left: 42px;
+        background-size: 0;
+        }
+    .part1 {
+        display: block;
+        flex-direction: column;
+        }
+    .text1 {
+        width: 92vw;
+        padding-top: 8%;
+        padding-right: -4%;
+        padding-left: 0vw;
+        padding-right: 0%;
+        }
+    .visual2 {
+        position: relative;
+        width: 89vw;
+        margin-left: 0;
+        float: none;
+        margin-right: 0px;
+        }
+    .part2 {
+        flex-direction: row;
+        margin-top: 145px;
+        background-size: 0;
+        }
+    .title2 {
+        bottom: 76.5vw;
+        left: 50vw;
+    }
+    .d_empiremap {
+        padding-right: 0vw;
+    }
+    .text2 {
         padding-top: 10vw;
+        width: 92vw;
+        margin-left: 2%;
         }
-        h2.sub-title {
-            right: 106%;
-            top: 66%;
-        }
-        h2 {
-            font-size: 3vw;
-        }
-        .quote {
-            text-align: center;
-            line-height: 1.6em;
-            white-space: none;
-            white-space: normal;
-            padding-right: 23vw;
-            margin-top: 11vw;           
-        }
-        .visual1 {
-            width: 103vw;
-            padding-left: 0;
-        }
-        .part1 {
-                display: block;
-                flex-direction: column;
-        }
-        .text1 {
-            width: 100vw;
-            padding-top: 8%;
-            padding-right: -4%;
-            padding-left: 0vw;
-        }
-        .visual2 {
-            position: relative;
-            width: 100vw;
-            margin-left: 0;
-            float: none;
-            margin-right: 8px;
-        }
-        .part2 {
-            flex-direction: row;
-            margin-top: 74px;
-        }
+    .title3 {
+        position: unset;
+        width: 89vw;
+        padding-bottom: 3vw;
+    }
+    .part3 {
+        margin-top: 38vw;
+    }
+    .walldrawing {
+        max-width: 116%;
+        margin-right: 0;
+    }   
+    .hdescription {
+        margin-right: 0;
+    }
+    .wrap_part4 {
+        display: block;
+    }
+    .visual4 {
+        width: 100vw;
+        margin-top: 30vw;
+    } 
+    .atlas {
+        max-width: 92%;    
+    }
+    .d_atlas {
+        padding-left: 7.4vw;
+    }
+    .text4 {
+        width: 93vw;
+    }
+    .text5 {
+        padding-right: 0vw;
+        padding-left: 0;
+    }
+    .part5 {
+        background-size: 0;
+        width: 391px;
+    }
+    .atalantaplay {
+        background-size: 0;
+        margin-top: 27vw;
+    }
+    .visual5 {
+        overflow: auto;
+        margin-left: 0vw;
+    }
+    .visual5 img {
+        height: 249px;
+        margin-right: 13px;
+    }
+    .part6 {
+        display: block;
+        overflow: unset;
+        margin-top: 22vw;
+    }
+    .visual6 {
+        width: 96vw;
+        padding-top: 21vw;
+    }
+    .text6 {
+        width: 94vw;
+        padding-left: 0px;
+    }
+    .visual6 {
+        background-size: 0;
+    }
+    .part7 {
+        padding-top: 14vw;
+        display: block;
+        background-size: 0vw;
+        overflow: unset;
+    }
+    .text7 {
+    width: 93vw;
+    padding-right: 0;
+    }
+    .visual7 {
+        width: 96vw;
+    }
+    .part8 {
+        padding-top: 10vw;
+        display: block;
+        overflow: unset;
+        background-size: 0vw;
+    }
+    .text8 {
+        width: 96vw;
+    }
+    .visual8 {
+        padding-left: 0;
+        padding-top: 28px;
+        background-size: 0vw;
+        width: 92vw;
+    }
+    .part9 {
+        display: block;
+        background-size: 0;
+    }
+    .text9 {
+        width: 97vw;
+    }
+    .visual9 {
+        width: 93vw;
+        background-size: 0vw;
+        padding-left: 0;
+    }
+    .volcano {
+        width: 92vw;
+    }
+    .text10 {
+        width: 93vw;
+    }
+    .part10b {
+        background-size: 0vw;
+        width: 92vw;
+    }
+    .visual10 {
+        float: unset;
+        width: 92vw;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 16vw;
+    }
 }
